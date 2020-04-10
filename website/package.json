@@ -1,0 +1,41 @@
+{
+  "name": "@react-day-picker/website",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-alpha.40",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.40",
+    "buble": "^0.19.8",
+    "classnames": "^2.2.6",
+    "date-fns": "^2.9.0",
+    "mdx-loader": "^3.0.2",
+    "react": "^16.11.0",
+    "react-day-picker": "8.0.0-alpha.0",
+    "react-dom": "^16.11.0",
+    "react-frame-component": "^4.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prop-types": "^15.7.2",
+    "raw-loader": "^4.0.0",
+    "react-docgen": "^5.1.0",
+    "webpack": "^4.41.5"
+  }
+}

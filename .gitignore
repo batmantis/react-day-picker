@@ -1,6 +1,12 @@
-bower_components
-node_modules
-npm-debug.log
+.docusaurus
+.DS_Store
+.size-snapshot.json
+.vscode
+build
 coverage
-test-report.xml
-docs/_site
+dist
+lib
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
